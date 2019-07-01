@@ -1,0 +1,47 @@
+.need {
+  margin: 6px;
+  width: 320px;
+  border: 7px;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,0.25);
+  border-radius: 7px;
+  overflow: hidden;
+
+  .card-title {
+    background-color: #5a497f;
+    height: 140px;
+    padding: 6px 6px 6px 12px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    h1 {
+      font-size: 1.25rem;
+      line-height: 1.3;
+    }
+  }
+
+  .card-details {
+    padding: 20px;
+  
+    a.help {
+      display: inline-block;
+      width: 120px;
+      line-height: 1.5;
+      padding: 15px 20px;
+      border-radius: 10px;
+      background-color: #ffde00;
+      color: #101011;
+      box-shadow: 0 3px 0 0 #b39b00;
+      margin-bottom: 3px;
+      font-weight: 500;
+      transition: background-color .25s linear,box-shadow .25s linear,-webkit-box-shadow .25s linear;
+      font-family: museo_sans_rounded500,sans-serif;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+
+  
+}
